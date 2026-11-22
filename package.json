@@ -1,0 +1,13 @@
+{
+  "name": "presentations",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@12.15.0",
+  "engines": {
+    "node": ">=22.22.0"
+  },
+  "scripts": {
+    "build:site": "node scripts/build-site.mjs",
+    "dev": "node scripts/dev.mjs"
+  }
+}

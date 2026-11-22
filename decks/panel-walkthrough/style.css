@@ -1,0 +1,15 @@
+/* Deck-local overrides. Keep this file small; Slidev's layouts do most of the work. */
+
+.slidev-layout {
+  --slidev-theme-primary: #2563eb;
+}
+
+/* Mermaid diagrams: let them breathe, and never overflow a slide. */
+.slidev-layout .mermaid svg {
+  max-width: 100%;
+  max-height: 60vh;
+  margin: 0 auto;
+  display: block;
+}
+
+/* Convention: text wrapped in .opacity-50 is a placeholder prompt to replace. */
